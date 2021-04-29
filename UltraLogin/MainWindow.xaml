@@ -4,10 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UltraLogin"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="UltraLogin" Height="450" Width="1000" Icon="warehouse.ico" WindowStartupLocation="CenterScreen">
+        Title="UltraLogin" Height="450" Width="1000" Icon="warehouse.ico" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Window.Template>
-        <ControlTemplate TargetType="{x:Type Window}">
+        <ControlTemplate TargetType="{system:Type Window}">
             <AdornerDecorator>
                 <ContentPresenter/>
             </AdornerDecorator>
